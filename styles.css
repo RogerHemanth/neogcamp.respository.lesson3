@@ -1,5 +1,37 @@
 @import url('<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"');
 
+
+:root {
+    --primary-color: red;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+ 
+.link{
+    text-decoration: none;
+    paddings: 0.5rem 1rem;
+}
+
+.link-primary{
+    color: var(--primary-color); 
+    border-radius:0.5rem;
+    color:white;
+}
+
+.link-secondary{
+    color: var(--primary-color); 
+    border-radius: 1pix solid
+    var(--primary-color)
+} 
+
+
