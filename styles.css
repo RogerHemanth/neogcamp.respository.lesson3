@@ -2,7 +2,7 @@
 
 
 :root {
-    --primary-color: red;
+    --primary-color:red;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -19,13 +19,13 @@ body{
  
 .link{
     text-decoration: none;
-    paddings: 0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .link-primary{
     color: var(--primary-color); 
     border-radius:0.5rem;
-    color:white;
+
 }
 
 .link-secondary{
@@ -35,3 +35,10 @@ body{
 } 
 
 
+.non-bullet{
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+}
